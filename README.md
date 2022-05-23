@@ -1,5 +1,5 @@
-# git-command
-Những câu lệnh cơ bản thường sử dụng
+
+# Những câu lệnh cơ bản thường sử dụng
 
 1.Thiết lập chứng thực cá nhân
 $ git config --global user.name "User Name"
