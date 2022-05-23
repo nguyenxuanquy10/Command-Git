@@ -20,6 +20,7 @@ $ git branch<br>
 <br>
 5.Để tạo mới một branch:<br>
 $ git branch <name_branch><br>
+or $ git checkout -b <name_branch>
 <br>
 6.Để chuyển và tạo mới:<br>
 $ git branch -b <name_branch><br>
