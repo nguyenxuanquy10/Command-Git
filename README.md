@@ -32,6 +32,7 @@ $ git checkout <name_branch>
 Sau khi bạn thay đổi source code: thêm mới, sửa, xoá files,… Bạn cần phải cập nhật lên Staging Area. Để cập nhật hết các files:
 $ git add .
 
+
 9.Sau lệnh add, bạn cần sử dụng câu lệnh Commit để đây thông tin thay đổi lên Local Respository:
 $ git commit -m "Message"
 
