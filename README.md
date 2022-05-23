@@ -8,7 +8,7 @@ Lưu ý: –global được sử dụng để áp dụng cho tất cả các pro
 
 2.Tạo một kho chứa Git<br>
 $ git init<br>
-Nếu như bạn muốn theo dõi một dự án cũ trong Git, bạn cần ở trong thư mục của dự án đó. Lệnh này sẽ tạo một thư mục mới có tên .git, thư mục này chứa tất cả các tập <br>tin cần thiết cho kho chứa.<br>
+Nếu như bạn muốn theo dõi một dự án cũ trong Git, bạn cần ở trong thư mục của dự án đó. Lệnh này sẽ tạo một thư mục mới có tên .git, thư mục này chứa tất cả các tập tin cần thiết cho kho chứa.<br>
 <br>
 3.Sao chép một kho chứa đã tồn tại<br>
 $ git clone https://github.com/user/repository.git<br><br>
@@ -44,7 +44,7 @@ $ git remote add origin <remote_url><br>
 $ git push origin <name_branch><br>
 <br>
 12.Gộp nhánh<br>
-Sau một thời gian cập nhật các file và push lên git trên branch mới, bây giờ mình cần ghép (merge) code lại vào nhánh gốc (master). Trước tiên, cần phải checkout ra<br> khỏi branch hiện tại cần gộp để vào branch master, sau đó thì dùng lệnh merge để ghép branch mới vào master:<br>
+Sau một thời gian cập nhật các file và push lên git trên branch mới, bây giờ mình cần ghép (merge) code lại vào nhánh gốc (master). Trước tiên, cần phải checkout ra khỏi branch hiện tại cần gộp để vào branch master, sau đó thì dùng lệnh merge để ghép branch mới vào master:<br>
 $ git checkout master<br>
 $ git merge <new_branch><br>
 <br>
@@ -58,7 +58,7 @@ Lệnh này giúp bạn biết những gì đã được thay đổi giữa nhá
 <br>
 15.Gộp commit<br>
 $ git rebase -i HEAD~<br>
-Sau dấu ~ là số commit bạn muốn gộp. Sau khi gõ lệnh này một cửa sổ trình soạn thảo hiện ra. Thay đổi ký tự pick của dòng các dòng sau dòng đầu thành s rồi lưu lại/kết<br> thúc. Khi đó, trình soạn thảo để chỉnh sửa giải thích commit thiết lập cho commit sau khi đã tổng hợp sẽ được hiển thị, nên hãy chỉnh sửa lưu lại/kết thúc.<br>
+Sau dấu ~ là số commit bạn muốn gộp. Sau khi gõ lệnh này một cửa sổ trình soạn thảo hiện ra. Thay đổi ký tự pick của dòng các dòng sau dòng đầu thành s rồi lưu lại/kết thúc. Khi đó, trình soạn thảo để chỉnh sửa giải thích commit thiết lập cho commit sau khi đã tổng hợp sẽ được hiển thị, nên hãy chỉnh sửa lưu lại/kết thúc.<br>
 <br>
 16.Pull từ remote repository<br>
 $ git pull origin master<br>
