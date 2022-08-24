@@ -64,3 +64,8 @@ Sau dấu ~ là số commit bạn muốn gộp. Sau khi gõ lệnh này một c�
 16.Pull từ remote repository<br>
 $ git pull origin master<br>
 Lệnh trên sẽ gộp những thay đổi mới kéo về từ máy chủ từ xa với nhánh hiện tại trên máy local.<br>
+<br>
+17.Xóa remote<br>
+$ git remote remove origin<br>
+
+
